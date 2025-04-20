@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>608</width>
+    <height>311</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QComboBox" name="comboBox">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>120</y>
+      <width>261</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QComboBox:editable{
+	background-color: white;
+}
+QComboBox:drop-down{
+	border: none;
+}
+QComboBox:down-arrow{
+	background: green;
+	image: url(:/Downloads/arrow-down-sign-to-navigate.png);
+	width: 30px;
+	height: 30px;
+}
+QComboBox:down-arrow::on{
+	background: red;
+	image: url(:/Downloads/up-arrow.png);
+	width: 30px;
+	height: 30px;
+}</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>Item 1</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Item 2</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Item 3</string>
+     </property>
+    </item>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

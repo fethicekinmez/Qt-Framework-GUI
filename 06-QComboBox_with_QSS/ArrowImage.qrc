@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>../../../../Downloads/arrow-down-sign-to-navigate.png</file>
+        <file>../../../../Downloads/up-arrow.png</file>
+    </qresource>
+</RCC>
