@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/Image"/>
+    <qresource prefix="/">
+        <file>../../../../Downloads/blank-check-box.png</file>
+        <file>../../../../Downloads/check-box.png</file>
+    </qresource>
+</RCC>
