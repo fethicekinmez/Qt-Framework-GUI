@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>590</width>
+    <width>471</width>
     <height>420</height>
    </rect>
   </property>
@@ -19,12 +19,41 @@
      <rect>
       <x>60</x>
       <y>20</y>
-      <width>201</width>
+      <width>171</width>
       <height>81</height>
      </rect>
     </property>
     <property name="styleSheet">
      <string notr="true">QRadioButton:indicator:checked{
+	image: url(:/new/prefix1/yes.png);
+	width: 20px;
+	height: 20px;
+}
+
+QRadioButton:indicator:unchecked{
+	image: url(:/new/prefix1/multiply.png);
+	width: 20px;
+	height: 20px;
+}</string>
+    </property>
+    <property name="text">
+     <string>RadioButton</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="radioButton_2">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>130</y>
+      <width>171</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QRadioButton{
+	background-color: yellow;
+}
+QRadioButton:indicator:checked{
 	image: url(:/new/prefix1/yes.png);
 	width: 20px;
 	height: 20px;
