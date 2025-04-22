@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>multiply.png</file>
+        <file>yes.png</file>
+    </qresource>
+</RCC>
