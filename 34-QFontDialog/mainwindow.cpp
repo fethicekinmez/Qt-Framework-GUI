@@ -17,6 +17,7 @@ void MainWindow::on_pushButton_Font_clicked()
 {
     bool isOk = false;
     QFont fontValue = QFontDialog::getFont(&isOk, this);
+    qDebug() << fontValue;
     ui->textEdit->setFont(fontValue);
 }
 
