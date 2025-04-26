@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>684</width>
+    <height>328</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>684</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuMenu_1">
+    <property name="title">
+     <string>Menu 1</string>
+    </property>
+    <addaction name="actionSub_Item_1_Menu_1"/>
+    <addaction name="actionSub_Item_2_Menu_1"/>
+    <addaction name="actionSub_Item_3_Menu_1"/>
+   </widget>
+   <widget class="QMenu" name="menuMenu_2">
+    <property name="title">
+     <string>Menu 2</string>
+    </property>
+    <addaction name="actionSub_Item_1_Menu_2"/>
+    <addaction name="actionSub_Item_2_Menu_2"/>
+    <addaction name="actionSub_Item_3_Menu_2"/>
+   </widget>
+   <widget class="QMenu" name="menuMenu_3">
+    <property name="title">
+     <string>Menu 3</string>
+    </property>
+    <addaction name="actionSub_Item_1_Menu_3"/>
+    <addaction name="actionSub_Item_2_Menu_3"/>
+    <addaction name="actionSub_Item_3_Menu_3"/>
+   </widget>
+   <widget class="QMenu" name="menuMenu_4">
+    <property name="title">
+     <string>Menu 4</string>
+    </property>
+    <addaction name="actionSub_Item_1"/>
+    <addaction name="separator"/>
+    <addaction name="actionSub_Item_2"/>
+   </widget>
+   <addaction name="menuMenu_1"/>
+   <addaction name="menuMenu_2"/>
+   <addaction name="menuMenu_3"/>
+   <addaction name="menuMenu_4"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionSub_Item_1_Menu_1">
+   <property name="text">
+    <string>Sub-Item 1 Menu 1 </string>
+   </property>
+  </action>
+  <action name="actionSub_Item_2_Menu_1">
+   <property name="text">
+    <string>Sub-Item 2 Menu 1</string>
+   </property>
+  </action>
+  <action name="actionSub_Item_3_Menu_1">
+   <property name="text">
+    <string>Sub-Item 3 Menu 1</string>
+   </property>
+  </action>
+  <action name="actionSub_Item_1_Menu_2">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Sub-Item 1 Menu 2</string>
+   </property>
+  </action>
+  <action name="actionSub_Item_2_Menu_2">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Sub-Item 2 Menu 2</string>
+   </property>
+  </action>
+  <action name="actionSub_Item_3_Menu_2">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Sub-Item 3 Menu 2</string>
+   </property>
+  </action>
+  <action name="actionSub_Item_1_Menu_3">
+   <property name="icon">
+    <iconset theme="accessories-dictionary" resource="Icons.qrc">
+     <normaloff>:/cool.png</normaloff>:/cool.png</iconset>
+   </property>
+   <property name="text">
+    <string>Sub-Item 1 Menu 3</string>
+   </property>
+  </action>
+  <action name="actionSub_Item_2_Menu_3">
+   <property name="icon">
+    <iconset theme="QIcon::ThemeIcon::DocumentOpenRecent"/>
+   </property>
+   <property name="text">
+    <string>Sub-Item 2 Menu 3</string>
+   </property>
+  </action>
+  <action name="actionSub_Item_3_Menu_3">
+   <property name="icon">
+    <iconset>
+     <activeon>:/emoji.png</activeon>
+    </iconset>
+   </property>
+   <property name="text">
+    <string>Sub-Item 3 Menu 3</string>
+   </property>
+  </action>
+  <action name="actionSub_Item_1">
+   <property name="text">
+    <string>Sub-Item 1</string>
+   </property>
+  </action>
+  <action name="actionSub_Item_2">
+   <property name="text">
+    <string>Sub-Item 2</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="Icons.qrc"/>
+ </resources>
+ <connections/>
+</ui>

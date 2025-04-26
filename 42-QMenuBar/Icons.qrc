@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>cool.png</file>
+        <file>emoji.png</file>
+        <file>sad.png</file>
+    </qresource>
+</RCC>
